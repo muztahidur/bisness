@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    height: 220px;
+    background-image: url(../photo/slide-shoes-logo\ .png);
+    background-color: rgb(193, 193, 193);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* color: rgb(255, 255, 255); */
+    background-blend-mode: multiply;
+    background-position: top center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px gray;
+}
+.page-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    
+}
+.image-shoes{
+    height: 325px;
+    width: 250px;
+    border-radius: 10px;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    height: 395px;
+    width: 250px;
+    /* border: 3px solid rgb(151, 151, 151); */
+    border-radius: 11px;
+    padding: 1px 1px 2px 1px;
+    margin: 15px 0px 0px 10px;
+    box-shadow: 5px 5px 5px rgb(164, 164, 164);
+}
+.product-name{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.price{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.moq{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
